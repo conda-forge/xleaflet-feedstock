@@ -43,7 +43,7 @@ test:
 
 about:
   home: http://quantstack.net/xleaflet
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'C++ backend for the jupyter leaflet widget'
