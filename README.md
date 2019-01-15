@@ -5,7 +5,7 @@ About xleaflet
 
 Home: http://quantstack.net/xleaflet
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
