@@ -1,6 +1,6 @@
 {% set name = "xleaflet" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "085cde35cd4895652a9825b3139893413b1d31fe279f2b66e73ecdb74c283682" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "d9448cf994bf10d6748cb7929734fcbbe88471fb8acd567384f8eb0cf731a0e2" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
-  {% if 'toolchain' in compiler('cxx') %}skip: True{% endif %}  # Only build with modern compilers.
+  number: 0
   skip: true  # [win and vc<14]
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x') }}
@@ -23,13 +22,13 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
   host:
-    - xeus >=0.17.0,<0.18
+    - xeus >=0.18.1,<0.19
     - xtl >=0.5.2,<0.6
-    - xproperty >=0.7.0,<0.8
-    - xwidgets >=0.15.0,<0.16
-    - xtensor >=0.19.0,<20
+    - xproperty >=0.8.0,<0.9
+    - xwidgets >=0.16.0,<0.17
+    - xtensor >=0.19.1,<20
   run:
-    - xtensor >=0.19.0,<20
+    - xtensor >=0.19.1,<20
 
 test:
   commands:
