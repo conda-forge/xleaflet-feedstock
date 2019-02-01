@@ -1,6 +1,6 @@
 {% set name = "xleaflet" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "d9448cf994bf10d6748cb7929734fcbbe88471fb8acd567384f8eb0cf731a0e2" %}
+{% set version = "0.6.1" %}
+{% set sha256 = "62f815c6e1f8c9b08c70e578c296beeaffbb17d74cedfd99df3d31454a1a507b" %}
 
 package:
   name: {{ name|lower }}
