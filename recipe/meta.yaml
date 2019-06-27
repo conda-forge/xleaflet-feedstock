@@ -1,6 +1,6 @@
 {% set name = "xleaflet" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "860cdfb5a7e71e3c72300f64c880eceb2e93e0f3b90990e9cf09799e0bda11c5" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "54532a9480499344626de454c3ded129ff30570f8e0e9f471ba95110a861dfc1" %}
 
 package:
   name: {{ name|lower }}
@@ -22,13 +22,13 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
   host:
-    - xeus >=0.19.1,<0.20
-    - xtl >=0.6.3,<0.7
+    - xeus >=0.20.0,<0.21
+    - xtl >=0.6.5,<0.7
     - xproperty >=0.8.1,<0.9
-    - xwidgets >=0.17.0,<0.18
+    - xwidgets >=0.18.0,<0.19
     - xtensor >=0.20.1,<21
   run:
-    - xtensor >=0.20.1,<21
+    - xtensor >=0.20.8,<21
 
 test:
   commands:
