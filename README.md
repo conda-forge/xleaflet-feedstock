@@ -5,11 +5,13 @@ Home: http://quantstack.net/xleaflet
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xleaflet-feedstock/blob/master/LICENSE.txt)
 
 Summary: C++ backend for the jupyter leaflet widget
 
+Development: https://github.com/jupyter-xeus/xleaflet
 
+Documentation: http://xleaflet.readthedocs.io
 
 Current build status
 ====================
