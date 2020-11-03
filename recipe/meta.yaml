@@ -1,6 +1,6 @@
 {% set name = "xleaflet" %}
-{% set version = "0.12.0" %}
-{% set sha256 = "4575a62ab4d31c0b3660ca19f811963ea0bbe09723a63b70727d1096d3d57dec" %}
+{% set version = "0.13.0" %}
+{% set sha256 = "6eed580afaf619a80bc36475529a890dde8f592901b9fc43673378a10dda017d" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,7 @@ requirements:
     - xeus >=0.24.0,<0.25
     - xtl >=0.6.5,<0.7
     - xproperty >=0.10.0,<0.11
-    - xwidgets >=0.22.0,<0.23
+    - xwidgets >=0.23.0,<0.24
     - xtensor >=0.20.8,<22
   run:
     - xtensor >=0.20.8,<22
