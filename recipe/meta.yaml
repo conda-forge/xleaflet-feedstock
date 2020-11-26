@@ -1,6 +1,6 @@
 {% set name = "xleaflet" %}
-{% set version = "0.13.0" %}
-{% set sha256 = "6eed580afaf619a80bc36475529a890dde8f592901b9fc43673378a10dda017d" %}
+{% set version = "0.13.1" %}
+{% set sha256 = "634b43e8eb7304e8d10e25f3f26d49400fe12246119c24b9f6f222cc5c975a77" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win and vc<14]
   run_exports:
     - {{ pin_subpackage(name, max_pin='x.x') }}
