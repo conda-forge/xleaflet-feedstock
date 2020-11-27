@@ -21,6 +21,7 @@ requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
+    - make  # [unix]
   host:
     - xeus >=0.24.0,<0.26
     - xtl >=0.6.5,<0.7
