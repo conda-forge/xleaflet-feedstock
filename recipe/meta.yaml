@@ -1,5 +1,5 @@
 {% set name = "xleaflet" %}
-{% set version = "0.18.0" %}
+{% set version = "0.20.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/jupyter-xeus/xleaflet/archive/{{ version }}.tar.gz
-  sha256: 1bc85797f12195c35d2c4d31c1fd78c8e4625151e7cea62ec085491c9f89754b
+  sha256: 2ea94516ef4d75086278e51647b717d62f99ab5d6a7573c720663cdf643aa95f
 
 build:
   number: 0
