@@ -1,5 +1,5 @@
 {% set name = "xleaflet" %}
-{% set version = "0.18.0" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/jupyter-xeus/xleaflet/archive/{{ version }}.tar.gz
-  sha256: 1bc85797f12195c35d2c4d31c1fd78c8e4625151e7cea62ec085491c9f89754b
+  sha256: 991aaa069adba90f81c810a14c1d81f046657229b90f9d0fa8b3c948654220a1
 
 build:
   number: 0
@@ -25,10 +25,10 @@ requirements:
   host:
     - xeus >=5.0.0,<6.0
     - xproperty >=0.12.0,<0.13
-    - xwidgets >=0.29.0,<0.30
-    - xtensor >=0.24.3,<0.25
+    - xwidgets >=0.29.0,<0.29.2
+    - xtensor >=0.25.0,<0.26
   run:
-    - xtensor >=0.24.3,<0.25
+    - xtensor >=0.25,<0.26
 
 test:
   commands:
