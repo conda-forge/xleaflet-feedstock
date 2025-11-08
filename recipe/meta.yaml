@@ -26,9 +26,9 @@ requirements:
     - xeus >=5.0.0,<6.0
     - xproperty >=0.12.0,<0.12.1
     - xwidgets >=0.29.0,<0.29.2
-    - xtensor >=0.25.0,<0.26
+    - xtensor >=0.26.0,<0.27
   run:
-    - xtensor >=0.25,<0.26
+    - xtensor >=0.26,<0.27
 
 test:
   commands:
