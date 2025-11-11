@@ -11,7 +11,7 @@ Summary: C++ backend for the jupyter leaflet widget
 
 Development: https://github.com/jupyter-xeus/xleaflet
 
-Documentation: http://xleaflet.readthedocs.io
+Documentation: http://xleaflet.readthedocs.io/
 
 Current build status
 ====================
